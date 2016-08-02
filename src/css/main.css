@@ -136,8 +136,17 @@ h2 em{
         float: none;
         width: auto;
         text-align: left;
-        margin-bottom: 0;
         font-size: 1.6rem;
+        margin-left: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    h2 em{
+        margin-bottom: .5rem;
+    }
+
+    .area{
+        border-left: solid .5rem #AFDCF8;
     }
 
     .content-container{
@@ -157,11 +166,7 @@ h2 em{
         top: .3rem;
     }
 
-    .area:nth-child(even) .content{
-        margin-left: .5rem;
-    }
-
-    .area:nth-child(odd) .content{
-        margin-left: 1rem;
+    .area .content{
+        margin: 0 .5rem 0 1rem;
     }
 }
